@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+"""Score the backup odometry on the development dataset.
+
+    ros2 run tram_backup_odometry evaluate_bag <bag> [more bags ...]
+    evaluate_bag --all <dataset_dir> [--limit N] [--window S] [--csv out.csv]
+
+The script replays every bag through the estimator core and prints the
+velocity / position error tables of the submission.
+"""
+import argparse
+import csv
+import glob
+import math
+import os
+import sys
+
+import numpy as np
+
+from tram_backup_odometry.evaluate import Score, along_cross_error
+from tram_backup_odometry.params import Config, default_path
+from tram_backup_odometry import replay as R
+
+
+def score_run(res, dt=0.05):
+    grid, vref, pref = R.reference_on_grid(res, dt)
+    if len(grid) < 20:
+        return None
+    if len(vref) < 20 or not np.any(np.isfinite(vref)):
+        # no GNSS velocity in this recording
+        return None
+    v = np.interp(grid, res.t, res.v)
+    p = np.column_stack([np.interp(grid, res.t, res.p[:, k]) for k in range(3)])
+    n = np.interp(grid, res.t, res.notch)
+    k = np.interp(grid, res.t, res.kappa)
+    s = Score()
+    e = v - vref
+    ok = np.abs(vref) < 25.0
+    e = e[ok]
+    s.v_rmse = float(np.sqrt(np.mean(e ** 2)))
+    s.v_mae = float(np.mean(np.abs(e)))
+    s.v_bias = float(np.mean(e))
+    s.v_max = float(np.max(np.abs(e)))
+    nn = n[ok]
+    for mask, attr in ((nn > 0, 'v_rmse_acc'), (nn < 0, 'v_rmse_brk'), (nn == 0, 'v_rmse_coast')):
+        if mask.sum() > 5:
+            setattr(s, attr, float(np.sqrt(np.mean(e[mask] ** 2))))
+    s.slip_fraction = float(np.mean(np.abs(k) > 0.04))
+    d = np.linalg.norm((p - pref)[:, :2], axis=1)
+    good = np.concatenate([[True], np.diff(grid) > 1e-6])
+    d = d[good]
+    s.pos_rmse = float(np.sqrt(np.mean(d ** 2)))
+    s.pos_max = float(np.max(d))
+    ref_s = np.cumsum(np.hypot(np.diff(pref[:, 0]), np.diff(pref[:, 1])))
+    along, cross = along_cross_error(p, pref, ref_s)
+    s.along_mean, s.cross_rms = along, cross
+    ref_d = pref[:, :2]
+    step = np.hypot(np.diff(ref_d[:, 0]), np.diff(ref_d[:, 1]))
+    step = step[step < 15.0]
+    s.dist = float(step.sum())
+    s.drift_pct = 100.0 * d[-1] / max(s.dist, 1e-6)
+    s.matched = res.align_status == 'matched'
+    return s
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser()
+    ap.add_argument('bags', nargs='*')
+    ap.add_argument('--all', help='directory with the development bags')
+    ap.add_argument('--limit', type=int, default=0)
+    ap.add_argument('--window', type=float, default=60.0,
+                    help='GNSS initialisation window [s] (test conditions: 5-10)')
+    ap.add_argument('--no-map', action='store_true')
+    ap.add_argument('--relative', action='store_true',
+                    help='disable the GNSS alignment (pure relative odometry)')
+    ap.add_argument('--csv')
+    ap.add_argument('--quiet', action='store_true')
+    args = ap.parse_args(argv)
+
+    cfg = Config()
+    cfg.route.gnss_init_window_s = args.window
+    if args.no_map:
+        cfg.route.use_map = False
+    if args.relative:
+        cfg.route.init_mode = 'relative'
+    cfg.model.model_file = default_path('model.json')
+    cfg.route.map_file = default_path('route_map.json')
+
+    bags = list(args.bags)
+    if args.all:
+        bags = sorted(d for d in glob.glob(os.path.join(args.all, '*'))
+                      if os.path.isfile(os.path.join(d, 'metadata.yaml')))
+    if args.limit:
+        bags = bags[:args.limit]
+    if not bags:
+        ap.error('no bags given')
+
+    rows = []
+    skipped = []
+    ALIGNS = {}
+    print(f'{"bag":16}{"vRMSE":>8}{"vMAE":>8}{"vBias":>8}{"vMax":>8}'
+          f'{"posRMSE":>9}{"posMax":>9}{"along":>8}{"cross":>8}{"drift%":>8}'
+          f'{"slip%":>7}  align')
+    for b in bags:
+        try:
+            res = R.replay(b, cfg)
+        except Exception as exc:
+            print(f'{os.path.basename(b):16} ERROR {exc}', flush=True)
+            continue
+        s = score_run(res)
+        if s is None:
+            skipped.append(os.path.basename(b.rstrip('/')))
+            continue
+        a = getattr(res, 'diag_align', None)
+        name0 = os.path.basename(b.rstrip('/'))
+        ALIGNS[name0] = {
+            'status': res.align_status, 'res': '%.3f' % res.align_residual,
+            'amb': '%.3f' % res.align_ambiguity, 'span': '%.1f' % res.align_span_m,
+            's0': '%.1f' % a.s0 if a else '', 'branch': a.branch if a else '',
+            'rev': int(a.reverse) if a else '', 'yaw': '%.2f' % math.degrees(a.yaw) if a else '',
+            'weak': int(a.weak) if a else '', 'ambiguous': int(a.ambiguous) if a else ''}
+        name = os.path.basename(b.rstrip('/'))
+        rows.append((name, s))
+        if not args.quiet:
+            print(f'{name:16}{s.v_rmse:8.3f}{s.v_mae:8.3f}{s.v_bias:8.3f}{s.v_max:8.2f}'
+                  f'{s.pos_rmse:9.2f}{s.pos_max:9.2f}{s.along_mean:8.2f}{s.cross_rms:8.2f}'
+                  f'{s.drift_pct:8.3f}{100*s.slip_fraction:7.2f}  '
+                  f'{res.align_status}({res.align_residual:.1f}m,ws={res.wheel_scale:.4f})')
+
+    if not rows:
+        return 1
+    print('-' * 118)
+
+    def agg(attr):
+        a = np.array([getattr(s, attr) for _, s in rows], dtype=float)
+        a = a[np.isfinite(a)]
+        return a
+    for attr, lbl in (('v_rmse', 'vRMSE'), ('v_mae', 'vMAE'), ('v_bias', 'vBias'),
+                      ('pos_rmse', 'posRMSE'), ('pos_max', 'posMax'),
+                      ('drift_pct', 'drift%'), ('along_mean', 'along'), ('cross_rms', 'cross')):
+        a = agg(attr)
+        if len(a):
+            print(f'{lbl:>10}: mean {a.mean():8.3f}  median {np.median(a):8.3f}  '
+                  f'p90 {np.percentile(a,90):8.3f}  max {a.max():8.3f}')
+    nm = sum(1 for _, s in rows if s.matched)
+    print(f'alignment: {nm}/{len(rows)} runs matched to the route map')
+    if skipped:
+        print(f'skipped {len(skipped)} runs without a GNSS reference: '
+              f'{", ".join(skipped[:6])}{" ..." if len(skipped) > 6 else ""}')
+    sf = agg('slip_fraction')
+    if len(sf):
+        print(f'slip time fraction: mean {100*sf.mean():.2f} %  max {100*sf.max():.2f} %')
+
+    if args.csv:
+        with open(args.csv, 'w', newline='') as fh:
+            w = csv.writer(fh)
+            w.writerow(['bag', 'v_rmse', 'v_mae', 'v_bias', 'v_max', 'v_rmse_acc',
+                        'v_rmse_brk', 'v_rmse_coast', 'pos_rmse', 'pos_max', 'along_mean',
+                        'cross_rms', 'drift_pct', 'slip_fraction', 'matched',
+                        'align_status', 'align_residual', 'align_ambiguity',
+                        'align_span_m', 'align_s0', 'align_branch', 'align_reverse',
+                        'align_yaw_deg', 'align_weak', 'align_ambiguous'])
+            for name, s in rows:
+                a = ALIGNS.get(name, {})
+                w.writerow([name, s.v_rmse, s.v_mae, s.v_bias, s.v_max, s.v_rmse_acc,
+                            s.v_rmse_brk, s.v_rmse_coast, s.pos_rmse, s.pos_max,
+                            s.along_mean, s.cross_rms, s.drift_pct, s.slip_fraction,
+                            int(s.matched), a.get('status', ''), a.get('res', ''),
+                            a.get('amb', ''), a.get('span', ''), a.get('s0', ''),
+                            a.get('branch', ''), a.get('rev', ''), a.get('yaw', ''),
+                            a.get('weak', ''), a.get('ambiguous', '')])
+        print('csv written to', args.csv)
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

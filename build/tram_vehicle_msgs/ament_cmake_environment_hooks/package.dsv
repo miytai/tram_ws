@@ -1,0 +1,4 @@
+source;share/tram_vehicle_msgs/local_setup.bash
+source;share/tram_vehicle_msgs/local_setup.dsv
+source;share/tram_vehicle_msgs/local_setup.sh
+source;share/tram_vehicle_msgs/local_setup.zsh

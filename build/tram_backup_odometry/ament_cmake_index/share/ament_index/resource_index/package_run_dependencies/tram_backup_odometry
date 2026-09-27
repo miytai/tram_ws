@@ -1,0 +1,1 @@
+std_msgs;nav_msgs;sensor_msgs;geometry_msgs;diagnostic_msgs;tram_vehicle_msgs;python3-numpy;rosbag2_py;rclpy;launch;launch_ros;ament_cmake_pytest;python3-pytest

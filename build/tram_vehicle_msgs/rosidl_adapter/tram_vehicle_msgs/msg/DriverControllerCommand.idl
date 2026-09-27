@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tram_vehicle_msgs/msg/DriverControllerCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module tram_vehicle_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Driver controller command" "\n"
+      "Reconstructed from the recorded rosbag wire format (verified byte-for-byte" "\n"
+      "against /vehicle/driver_position_cmd across multiple bags and both vehicles).")
+    struct DriverControllerCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Driver controller position (notch):" "\n"
+        "  0        -> neutral" "\n"
+        "  +1..+15  -> traction (acceleration)" "\n"
+        "  -1..-15  -> braking")
+      int8 position;
+    };
+  };
+};

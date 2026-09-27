@@ -1,0 +1,2 @@
+Invoking command in '/home/ros/tram_ws/build/tram_backup_odometry': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/ros/tram_ws/build/tram_backup_odometry' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ros/tram_ws/build/tram_vehicle_msgs/rosidl_generator_py/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "tram_vehicle_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/tram_vehicle_msgs")

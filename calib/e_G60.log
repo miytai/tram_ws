@@ -1,0 +1,223 @@
+[INFO] [1790423863.141147922] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_01f73500/30618_01f73500_0.db3' for READ_ONLY.
+[INFO] [1790423866.881477512] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0259fe53/30618_0259fe53_0.db3' for READ_ONLY.
+[INFO] [1790423868.447522850] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0652866c/30618_0652866c_0.db3' for READ_ONLY.
+[INFO] [1790423872.661616129] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0686195f/30618_0686195f_0.db3' for READ_ONLY.
+[INFO] [1790423876.082401754] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_073f08d1/30618_073f08d1_0.db3' for READ_ONLY.
+[INFO] [1790423879.699973193] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_082f1d65/30618_082f1d65_0.db3' for READ_ONLY.
+[INFO] [1790423879.806961039] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_095a115b/30618_095a115b_0.db3' for READ_ONLY.
+[INFO] [1790423883.531093316] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0a83c933/30618_0a83c933_0.db3' for READ_ONLY.
+[INFO] [1790423884.864406838] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0d865417/30618_0d865417_0.db3' for READ_ONLY.
+[INFO] [1790423884.926750533] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0e41eac3/30618_0e41eac3_0.db3' for READ_ONLY.
+[INFO] [1790423888.682269991] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0f120b35/30618_0f120b35_0.db3' for READ_ONLY.
+[INFO] [1790423892.493989672] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_117c2d02/30618_117c2d02_0.db3' for READ_ONLY.
+[INFO] [1790423893.971428924] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_1551d0a9/30618_1551d0a9_0.db3' for READ_ONLY.
+[INFO] [1790423894.004649849] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_1cc230fa/30618_1cc230fa_0.db3' for READ_ONLY.
+[INFO] [1790423897.729377751] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_20096314/30618_20096314_0.db3' for READ_ONLY.
+[INFO] [1790423899.181876351] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2050d396/30618_2050d396_0.db3' for READ_ONLY.
+[INFO] [1790423902.977784516] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2161b58b/30618_2161b58b_0.db3' for READ_ONLY.
+[INFO] [1790423904.285124335] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_21dd3af3/30618_21dd3af3_0.db3' for READ_ONLY.
+[INFO] [1790423907.298608911] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2255aade/30618_2255aade_0.db3' for READ_ONLY.
+[INFO] [1790423908.807213714] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_22c1c589/30618_22c1c589_0.db3' for READ_ONLY.
+[INFO] [1790423912.085204351] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2366c74a/30618_2366c74a_0.db3' for READ_ONLY.
+[INFO] [1790423915.165139701] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_27e994fc/30618_27e994fc_0.db3' for READ_ONLY.
+[INFO] [1790423920.589500652] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_28538acf/30618_28538acf_0.db3' for READ_ONLY.
+[INFO] [1790423924.228640585] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2cb9ce37/30618_2cb9ce37_0.db3' for READ_ONLY.
+[INFO] [1790423926.428320951] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2d2fa7be/30618_2d2fa7be_0.db3' for READ_ONLY.
+[INFO] [1790423927.799681368] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2dbce472/30618_2dbce472_0.db3' for READ_ONLY.
+[INFO] [1790423931.579679008] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2f104a1d/30618_2f104a1d_0.db3' for READ_ONLY.
+[INFO] [1790423935.158226152] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2f2f1175/30618_2f2f1175_0.db3' for READ_ONLY.
+[INFO] [1790423936.542570110] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_33bec73f/30618_33bec73f_0.db3' for READ_ONLY.
+[INFO] [1790423939.967610744] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3b36e5cd/30618_3b36e5cd_0.db3' for READ_ONLY.
+[INFO] [1790423943.603233950] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3ba2326f/30618_3ba2326f_0.db3' for READ_ONLY.
+[INFO] [1790423945.131483564] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3e012faf/30618_3e012faf_0.db3' for READ_ONLY.
+[INFO] [1790423946.349910015] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3e9f4952/30618_3e9f4952_0.db3' for READ_ONLY.
+[INFO] [1790423950.326125550] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_40ffd323/30618_40ffd323_0.db3' for READ_ONLY.
+[INFO] [1790423954.037243220] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_437e855c/30618_437e855c_0.db3' for READ_ONLY.
+[INFO] [1790423957.279215860] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_45ff6f99/30618_45ff6f99_0.db3' for READ_ONLY.
+[INFO] [1790423957.361895314] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_46e21b9b/30618_46e21b9b_0.db3' for READ_ONLY.
+[INFO] [1790423958.741806471] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_49fe4c54/30618_49fe4c54_0.db3' for READ_ONLY.
+[INFO] [1790423962.643094378] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_4d487b0d/30618_4d487b0d_0.db3' for READ_ONLY.
+[INFO] [1790423965.681424474] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_4e1e3181/30618_4e1e3181_0.db3' for READ_ONLY.
+[INFO] [1790423967.178139834] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_5036aa78/30618_5036aa78_0.db3' for READ_ONLY.
+[INFO] [1790423967.315676937] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_5eb8d2c9/30618_5eb8d2c9_0.db3' for READ_ONLY.
+[INFO] [1790423969.453733332] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_616ec56b/30618_616ec56b_0.db3' for READ_ONLY.
+[INFO] [1790423972.932997684] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_6236f680/30618_6236f680_0.db3' for READ_ONLY.
+[INFO] [1790423974.493893681] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_67b89902/30618_67b89902_0.db3' for READ_ONLY.
+[INFO] [1790423977.298282143] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_68847170/30618_68847170_0.db3' for READ_ONLY.
+[INFO] [1790423980.778587894] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_68d1748a/30618_68d1748a_0.db3' for READ_ONLY.
+[INFO] [1790423984.332847302] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_6cb3280a/30618_6cb3280a_0.db3' for READ_ONLY.
+[INFO] [1790423987.785182195] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_74559c73/30618_74559c73_0.db3' for READ_ONLY.
+[INFO] [1790423987.954258282] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_748832b9/30618_748832b9_0.db3' for READ_ONLY.
+[INFO] [1790423991.107339783] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_76e1f9c7/30618_76e1f9c7_0.db3' for READ_ONLY.
+[INFO] [1790423994.795926881] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7849303f/30618_7849303f_0.db3' for READ_ONLY.
+[INFO] [1790423998.047633624] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_79b204dc/30618_79b204dc_0.db3' for READ_ONLY.
+[INFO] [1790423999.329928696] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7a152380/30618_7a152380_0.db3' for READ_ONLY.
+[INFO] [1790424000.782298075] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7b4d83f4/30618_7b4d83f4_0.db3' for READ_ONLY.
+[INFO] [1790424004.005545929] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7bfbb5ed/30618_7bfbb5ed_0.db3' for READ_ONLY.
+[INFO] [1790424005.522572713] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7d88fa79/30618_7d88fa79_0.db3' for READ_ONLY.
+[INFO] [1790424007.040419718] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8158f0b0/30618_8158f0b0_0.db3' for READ_ONLY.
+[INFO] [1790424010.406113542] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_81c22fee/30618_81c22fee_0.db3' for READ_ONLY.
+[INFO] [1790424011.812434104] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_87afe526/30618_87afe526_0.db3' for READ_ONLY.
+[INFO] [1790424015.218098481] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_88548b02/30618_88548b02_0.db3' for READ_ONLY.
+[INFO] [1790424018.775222722] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_887a2b9a/30618_887a2b9a_0.db3' for READ_ONLY.
+[INFO] [1790424020.032347843] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8eb8615c/30618_8eb8615c_0.db3' for READ_ONLY.
+[INFO] [1790424021.406652055] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8f08df08/30618_8f08df08_0.db3' for READ_ONLY.
+[INFO] [1790424022.853273356] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_92b1b453/30618_92b1b453_0.db3' for READ_ONLY.
+[INFO] [1790424024.195080878] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_93dc866e/30618_93dc866e_0.db3' for READ_ONLY.
+[INFO] [1790424027.216672038] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_95c49c30/30618_95c49c30_0.db3' for READ_ONLY.
+[INFO] [1790424028.753116948] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_98161270/30618_98161270_0.db3' for READ_ONLY.
+[INFO] [1790424028.896793980] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9bbe6faa/30618_9bbe6faa_0.db3' for READ_ONLY.
+[INFO] [1790424030.290157125] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9c09b081/30618_9c09b081_0.db3' for READ_ONLY.
+[INFO] [1790424033.925506912] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9c10cd0d/30618_9c10cd0d_0.db3' for READ_ONLY.
+[INFO] [1790424035.355030261] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a395846d/30618_a395846d_0.db3' for READ_ONLY.
+[INFO] [1790424039.025366249] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a53d5f6f/30618_a53d5f6f_0.db3' for READ_ONLY.
+[INFO] [1790424042.464546017] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a869780d/30618_a869780d_0.db3' for READ_ONLY.
+[INFO] [1790424045.529747229] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ab5921a4/30618_ab5921a4_0.db3' for READ_ONLY.
+[INFO] [1790424048.799594527] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ae4eb346/30618_ae4eb346_0.db3' for READ_ONLY.
+[INFO] [1790424052.311456322] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_af7496f0/30618_af7496f0_0.db3' for READ_ONLY.
+[INFO] [1790424053.149236304] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b1098bdb/30618_b1098bdb_0.db3' for READ_ONLY.
+[INFO] [1790424054.657172759] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b15eafc3/30618_b15eafc3_0.db3' for READ_ONLY.
+[INFO] [1790424058.180874441] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b3042f78/30618_b3042f78_0.db3' for READ_ONLY.
+[INFO] [1790424061.268721614] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b8044aa0/30618_b8044aa0_0.db3' for READ_ONLY.
+[INFO] [1790424064.843835434] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b83d854d/30618_b83d854d_0.db3' for READ_ONLY.
+[INFO] [1790424068.328538643] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b95ca60a/30618_b95ca60a_0.db3' for READ_ONLY.
+[INFO] [1790424071.445902670] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bab2fe58/30618_bab2fe58_0.db3' for READ_ONLY.
+[INFO] [1790424071.649252313] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bc5e53c2/30618_bc5e53c2_0.db3' for READ_ONLY.
+[INFO] [1790424071.743460182] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bcc9e7a2/30618_bcc9e7a2_0.db3' for READ_ONLY.
+[INFO] [1790424072.950277884] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_cfd9fd5a/30618_cfd9fd5a_0.db3' for READ_ONLY.
+[INFO] [1790424074.440803815] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_d4ba7005/30618_d4ba7005_0.db3' for READ_ONLY.
+[INFO] [1790424077.778765953] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_dd8d0741/30618_dd8d0741_0.db3' for READ_ONLY.
+[INFO] [1790424081.316351994] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_dd8e6395/30618_dd8e6395_0.db3' for READ_ONLY.
+[INFO] [1790424084.775033876] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ddad08d6/30618_ddad08d6_0.db3' for READ_ONLY.
+[INFO] [1790424086.161949608] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_defd0170/30618_defd0170_0.db3' for READ_ONLY.
+bag                vRMSE    vMAE   vBias    vMax  posRMSE   posMax   along   cross  drift%  slip%  align
+30618_01f73500     0.093   0.044  -0.009    9.84  6031.04 10094.68 4185.70 3309.74   5.758   0.63  insufficient-motion(infm,ws=1.0000)
+30618_0652866c     0.232   0.072  -0.036    3.16  6257.98 10268.21 4432.66 3267.09   4.697   2.53  insufficient-motion(infm,ws=1.0000)
+30618_0686195f     0.112   0.080  -0.064    0.44  5581.78  9569.07 3998.54 2747.89   7.296   1.19  insufficient-motion(infm,ws=1.0000)
+30618_073f08d1     0.236   0.072  -0.034    2.69   745.98  1457.68  361.23  592.50   0.633   3.17  insufficient-motion(infm,ws=1.0000)
+30618_082f1d65     0.028   0.018  -0.018    0.16     7.43    12.38    5.98    0.50   0.045   0.00  waiting(infm,ws=1.0000)
+30618_095a115b     0.059   0.043  -0.007    0.31  5961.54 10067.84 4235.40 2983.14   4.334   0.21  insufficient-motion(infm,ws=1.0000)
+30618_0d865417     0.063   0.036  -0.006    0.23     6.87    12.46    5.15    1.06   0.106   9.28  waiting(infm,ws=1.0000)
+30618_0e41eac3     0.091   0.045  -0.008    1.93  5870.89  9885.92 4215.20 2899.18  19.417   0.49  insufficient-motion(infm,ws=1.0000)
+30618_0f120b35     0.078   0.044  -0.003    5.87   722.40  1461.38  334.01  577.51   2.069   0.60  insufficient-motion(infm,ws=1.0000)
+30618_1551d0a9     0.004   0.004  -0.004    0.01     6.35    11.64    5.99    0.16  13.166   0.00  waiting(infm,ws=1.0000)
+30618_1cc230fa     0.089   0.064  -0.014    0.60  5813.64 10123.05 4102.58 2822.23  13.940   1.32  insufficient-motion(infm,ws=1.0000)
+30618_2050d396     0.242   0.064  -0.037    2.83   703.22  1404.28  315.21  573.36   1.318   2.65  insufficient-motion(infm,ws=1.0000)
+30618_21dd3af3     0.416   0.125  -0.068    5.05   793.17  1456.65  362.67  663.93   1.315   5.27  insufficient-motion(infm,ws=1.0000)
+30618_22c1c589     0.059   0.042  -0.005    0.37   736.74  1471.38  367.60  572.49   1.162   0.23  insufficient-motion(infm,ws=1.0000)
+30618_2366c74a     0.072   0.049  -0.012    0.36   839.85  1468.62  417.12  686.55   1.451   1.33  insufficient-motion(infm,ws=1.0000)
+30618_27e994fc     0.297   0.083  -0.062   12.32  7636.81 10204.39 5698.15 3637.44   6.446   4.92  insufficient-motion(infm,ws=1.0000)
+30618_28538acf     0.305   0.109  -0.062    3.08  6135.98 10041.23 4413.45 3073.64   9.154   6.75  insufficient-motion(infm,ws=1.0000)
+30618_2cb9ce37     0.341   0.089  -0.045    4.13   535.88  1079.37  272.55  433.66   4.072   2.32  insufficient-motion(infm,ws=1.0000)
+30618_2dbce472     0.095   0.054  -0.005    3.25  5707.77 10059.62 3952.93 2949.16   4.855   0.34  insufficient-motion(infm,ws=1.0000)
+30618_2f104a1d     0.074   0.047  -0.004    4.56   747.03  1462.19  381.75  569.66   0.775   0.54  insufficient-motion(infm,ws=1.0000)
+30618_33bec73f     0.071   0.045  -0.008    1.49   757.49  1439.37  335.77  623.34   1.148   0.33  insufficient-motion(infm,ws=1.0000)
+30618_3b36e5cd     0.349   0.098  -0.051    4.53  5814.95 10013.07 4214.05 2816.79   8.985   2.78  insufficient-motion(infm,ws=1.0000)
+30618_3e9f4952     0.086   0.048  -0.004    3.73  9208.54  9553.00 7291.86 4956.51   5.616   0.62  matched(0.0m,ws=1.0000)
+30618_40ffd323     0.090   0.064  -0.007    1.00  6104.95 10149.66 4311.83 3127.34   6.391   1.41  insufficient-motion(infm,ws=1.0000)
+30618_437e855c     0.071   0.052  -0.011    0.42  6033.53 10057.23 4386.96 2847.59  25.542   0.39  insufficient-motion(infm,ws=1.0000)
+30618_45ff6f99     0.007   0.006  -0.006    0.02     7.63    12.41    7.23    0.51   0.891   0.00  waiting(infm,ws=1.0000)
+30618_49fe4c54     0.651   0.107  -0.069   21.40  5620.35 10154.50 3951.36 2795.17   4.195   1.59  insufficient-motion(infm,ws=1.0000)
+30618_4d487b0d     0.742   0.228  -0.057    7.13  5714.37 10053.35 4052.46 2785.76  10.154   5.93  insufficient-motion(infm,ws=1.0000)
+30618_5eb8d2c9     0.341   0.089  -0.045    4.13   535.88  1079.37  272.55  433.66   4.072   2.32  insufficient-motion(infm,ws=1.0000)
+30618_616ec56b     0.237   0.078  -0.035    2.81   728.99  1430.45  337.01  590.20   2.161   3.52  insufficient-motion(infm,ws=1.0000)
+30618_67b89902     0.061   0.043  -0.007    0.24   728.42  1440.20  349.42  574.79   0.740   0.00  insufficient-motion(infm,ws=1.0000)
+30618_68847170     0.067   0.045  -0.004    2.30   777.89  1460.56  369.21  627.86   1.065   0.07  insufficient-motion(infm,ws=1.0000)
+30618_68d1748a     0.247   0.067   0.004    7.29  6245.58 10065.39 4466.47 2959.62  21.476   0.38  insufficient-motion(infm,ws=1.0000)
+30618_6cb3280a     0.310   0.078  -0.040    4.84   762.01  1452.05  360.17  609.52   0.953   2.08  insufficient-motion(infm,ws=1.0000)
+30618_748832b9     0.309   0.088  -0.041    4.65   771.92  1448.93  353.11  625.57   0.712   1.77  insufficient-motion(infm,ws=1.0000)
+30618_76e1f9c7     0.067   0.047  -0.005    0.47  5853.37 10118.98 4198.47 2922.69  10.499   0.18  insufficient-motion(infm,ws=1.0000)
+30618_7849303f     0.309   0.088  -0.041    4.65   771.92  1448.93  353.11  625.57   0.712   1.77  insufficient-motion(infm,ws=1.0000)
+30618_7b4d83f4     0.060   0.044  -0.005    0.38   772.97  1475.44  389.77  605.63   1.769   0.26  insufficient-motion(infm,ws=1.0000)
+30618_8158f0b0     0.063   0.046  -0.008    0.37  5983.12 10195.80 4276.02 3070.44  17.358   0.81  insufficient-motion(infm,ws=1.0000)
+30618_87afe526     0.495   0.101  -0.055   12.54  6011.80 10016.22 4301.59 2897.41  12.429   1.91  insufficient-motion(infm,ws=1.0000)
+30618_88548b02     0.087   0.061  -0.039    0.50   696.79  1415.02  335.72  549.01   1.174   1.28  insufficient-motion(infm,ws=1.0000)
+30618_93dc866e     0.072   0.049  -0.012    0.36   839.85  1468.62  417.12  686.55   1.451   1.33  insufficient-motion(infm,ws=1.0000)
+30618_98161270     0.011   0.009  -0.009    0.04     8.92    12.46    7.82    0.57   0.000   0.00  waiting(infm,ws=1.0000)
+30618_9c09b081     0.064   0.047  -0.010    0.31  5922.00 10145.72 4059.04 3364.96   6.838   0.40  insufficient-motion(infm,ws=1.0000)
+30618_a395846d     0.089   0.064  -0.014    0.60  5813.64 10123.05 4102.58 2822.23  13.940   1.32  insufficient-motion(infm,ws=1.0000)
+30618_a53d5f6f     0.077   0.052  -0.008    2.20  6002.75 10055.28 4157.98 3115.05  10.846   1.93  insufficient-motion(infm,ws=1.0000)
+30618_a869780d     0.071   0.051  -0.008    0.44  6142.72  9864.10 4477.96 3316.82   6.025   0.75  insufficient-motion(infm,ws=1.0000)
+30618_ab5921a4     0.080   0.060  -0.006    0.43  6325.72 10118.07 4572.31 3137.34   5.414   0.32  insufficient-motion(infm,ws=1.0000)
+30618_ae4eb346     0.349   0.098  -0.051    4.53  5814.95 10013.07 4214.05 2816.79   8.985   2.78  insufficient-motion(infm,ws=1.0000)
+30618_af7496f0     0.081   0.051  -0.013    0.36   415.18   716.58  284.15  233.75   1.466   3.80  insufficient-motion(infm,ws=1.0000)
+30618_b15eafc3     0.070   0.047  -0.003    0.47   779.67  1461.89  352.78  646.48   0.722   0.37  insufficient-motion(infm,ws=1.0000)
+30618_b3042f78     0.742   0.228  -0.057    7.13  5714.37 10053.35 4052.46 2785.76  10.154   5.93  insufficient-motion(infm,ws=1.0000)
+30618_b8044aa0     0.073   0.049  -0.005    0.45   766.88  1458.69  356.10  626.95   1.400   0.18  insufficient-motion(infm,ws=1.0000)
+30618_b83d854d     0.084   0.061  -0.002    0.41  5787.14 10050.50 4051.81 3035.38   7.025   0.39  insufficient-motion(infm,ws=1.0000)
+30618_b95ca60a     0.086   0.047  -0.001    4.73   787.71  1465.64  353.21  650.89   1.444   0.39  insufficient-motion(infm,ws=1.0000)
+30618_bab2fe58     0.891   0.600  -0.588    2.69    28.34    48.04   13.21   23.31   0.324  55.41  waiting(infm,ws=1.0000)
+30618_bc5e53c2     0.006   0.004  -0.004    0.04     7.03    12.45    5.21    0.47   0.000   0.00  waiting(infm,ws=1.0000)
+30618_d4ba7005     0.198   0.068  -0.030    2.24   741.14  1398.60  326.60  613.36   0.660   2.10  insufficient-motion(infm,ws=1.0000)
+30618_dd8d0741     0.081   0.052  -0.009    4.95  5999.83 10106.91 4246.70 3065.19   9.171   0.66  insufficient-motion(infm,ws=1.0000)
+30618_dd8e6395     0.068   0.048  -0.008    0.30  6136.70  9944.98 4472.46 3117.13  20.174   0.12  insufficient-motion(infm,ws=1.0000)
+[INFO] [1790424089.150212458] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e151d6e4/30618_e151d6e4_0.db3' for READ_ONLY.
+[INFO] [1790424089.226794547] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e2dcf65f/30618_e2dcf65f_0.db3' for READ_ONLY.
+[INFO] [1790424092.217289390] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e392e5bd/30618_e392e5bd_0.db3' for READ_ONLY.
+[INFO] [1790424093.544945982] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e3d94878/30618_e3d94878_0.db3' for READ_ONLY.
+[INFO] [1790424097.079681049] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e7dcdab1/30618_e7dcdab1_0.db3' for READ_ONLY.
+[INFO] [1790424098.530754839] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e9a34502/30618_e9a34502_0.db3' for READ_ONLY.
+[INFO] [1790424101.889305049] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_efb92709/30618_efb92709_0.db3' for READ_ONLY.
+[INFO] [1790424105.701062037] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f19a4ac3/30618_f19a4ac3_0.db3' for READ_ONLY.
+[INFO] [1790424109.100810080] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f28179bb/30618_f28179bb_0.db3' for READ_ONLY.
+[INFO] [1790424110.359383952] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f3a0694d/30618_f3a0694d_0.db3' for READ_ONLY.
+[INFO] [1790424113.836724067] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f3b8c99b/30618_f3b8c99b_0.db3' for READ_ONLY.
+[INFO] [1790424116.852406674] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_0ab96c59/30639_0ab96c59_0.db3' for READ_ONLY.
+[INFO] [1790424117.115785835] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_0be558e2/30639_0be558e2_0.db3' for READ_ONLY.
+[INFO] [1790424120.566266607] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_253671cc/30639_253671cc_0.db3' for READ_ONLY.
+[INFO] [1790424123.677065203] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_2b4a6347/30639_2b4a6347_0.db3' for READ_ONLY.
+[INFO] [1790424126.843297611] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_3b3d9eb8/30639_3b3d9eb8_0.db3' for READ_ONLY.
+[INFO] [1790424130.315284938] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_4285f2bc/30639_4285f2bc_0.db3' for READ_ONLY.
+[INFO] [1790424133.954087088] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_44226bde/30639_44226bde_0.db3' for READ_ONLY.
+[INFO] [1790424137.062753740] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_50956d6e/30639_50956d6e_0.db3' for READ_ONLY.
+[INFO] [1790424140.211807963] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_584b6e32/30639_584b6e32_0.db3' for READ_ONLY.
+[INFO] [1790424143.426418368] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_92226df0/30639_92226df0_0.db3' for READ_ONLY.
+[INFO] [1790424146.913172094] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_927002c2/30639_927002c2_0.db3' for READ_ONLY.
+[INFO] [1790424150.149862730] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_9c362687/30639_9c362687_0.db3' for READ_ONLY.
+[INFO] [1790424153.980253377] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_9f0b519f/30639_9f0b519f_0.db3' for READ_ONLY.
+[INFO] [1790424156.997653611] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_c31df386/30639_c31df386_0.db3' for READ_ONLY.
+[INFO] [1790424160.769229231] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d3c43d69/30639_d3c43d69_0.db3' for READ_ONLY.
+[INFO] [1790424163.886988055] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d601d28f/30639_d601d28f_0.db3' for READ_ONLY.
+[INFO] [1790424166.635090259] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d927f360/30639_d927f360_0.db3' for READ_ONLY.
+[INFO] [1790424169.710313006] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_dce52be4/30639_dce52be4_0.db3' for READ_ONLY.
+[INFO] [1790424172.923742303] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_e4379d7f/30639_e4379d7f_0.db3' for READ_ONLY.
+30618_defd0170     0.264   0.130  -0.115    2.54   610.76  1208.98  265.94  509.49   2.312   3.08  insufficient-motion(infm,ws=1.0000)
+30618_e2dcf65f     0.069   0.047  -0.005    0.48   755.04  1391.37  392.38  584.24   0.915   0.16  insufficient-motion(infm,ws=1.0000)
+30618_e3d94878     0.074   0.051  -0.009    0.49  5410.19  9468.04 3605.35 2943.02   0.048   1.03  matched(0.0m,ws=1.0000)
+30618_e9a34502     0.339   0.080  -0.048    3.97   739.00  1413.44  332.54  610.63   1.360   2.40  insufficient-motion(infm,ws=1.0000)
+30618_efb92709     0.090   0.064  -0.007    1.00  6104.95 10149.66 4311.83 3127.34   6.391   1.41  insufficient-motion(infm,ws=1.0000)
+30618_f19a4ac3     0.069   0.048  -0.002    0.40   752.51  1492.42  359.78  609.00   1.235   0.16  insufficient-motion(infm,ws=1.0000)
+30618_f3a0694d     0.310   0.078  -0.040    4.84   762.01  1452.05  360.17  609.52   0.953   2.08  insufficient-motion(infm,ws=1.0000)
+30618_f3b8c99b     0.416   0.125  -0.068    5.05   793.17  1456.65  362.67  663.93   1.315   5.27  insufficient-motion(infm,ws=1.0000)
+30639_0ab96c59     0.036   0.009  -0.003    0.48     6.02    12.99    4.53    0.90   0.107   2.13  insufficient-motion(infm,ws=1.0000)
+30639_0be558e2     0.282   0.089  -0.046    4.22  5636.72 10253.93 3895.70 2556.02   6.741   2.48  insufficient-motion(infm,ws=1.0000)
+30639_253671cc     0.098   0.075   0.020    0.39  5410.99  9730.00 3880.18 2703.96  10.986   0.51  insufficient-motion(infm,ws=1.0000)
+30639_2b4a6347     0.331   0.090  -0.052    4.60   707.41  1432.60  354.50  558.32   1.507   1.81  insufficient-motion(infm,ws=1.0000)
+30639_3b3d9eb8     2.716   0.877  -0.768   12.72  5234.60  9151.69 3847.26 2502.21   6.317   5.22  insufficient-motion(infm,ws=1.0000)
+30639_4285f2bc     0.544   0.164  -0.119    4.26  5945.88  9996.63 4314.71 2880.10   5.134   5.73  insufficient-motion(infm,ws=1.0000)
+30639_44226bde     0.309   0.106  -0.011    3.14   754.27  1458.36  356.92  609.62   0.900   1.54  insufficient-motion(infm,ws=1.0000)
+30639_50956d6e     0.250   0.082  -0.017    9.35  6265.12 10120.18 4285.53 3652.47  10.501   1.17  insufficient-motion(infm,ws=1.0000)
+30639_584b6e32     0.089   0.063  -0.019    4.18  6383.71 10134.32 4677.94 3110.73   6.067   0.18  insufficient-motion(infm,ws=1.0000)
+30639_92226df0     0.097   0.073   0.038    1.17   778.77  1476.60  378.81  630.38   1.255   0.26  insufficient-motion(infm,ws=1.0000)
+30639_927002c2     0.094   0.071  -0.024    0.48   755.27  1439.49  344.22  628.40   2.054   1.49  insufficient-motion(infm,ws=1.0000)
+30639_9c362687     0.257   0.096  -0.004    8.84   801.34  1442.11  387.93  652.88   0.727   2.24  insufficient-motion(infm,ws=1.0000)
+30639_9f0b519f     0.090   0.067  -0.027    0.73   724.52  1440.59  345.65  585.88   3.099   2.01  insufficient-motion(infm,ws=1.0000)
+30639_c31df386     0.391   0.133  -0.032    3.24   757.03  1479.78  351.59  617.07   0.689   3.95  insufficient-motion(infm,ws=1.0000)
+30639_d3c43d69     0.144   0.072   0.023    9.13  5365.75  9688.63 3677.22 2885.84   6.743   0.34  insufficient-motion(infm,ws=1.0000)
+30639_d601d28f     0.139   0.113   0.078    0.50   843.76  1543.82  411.66  682.39   0.994   0.57  insufficient-motion(infm,ws=1.0000)
+30639_d927f360     0.299   0.093  -0.049    3.50   779.52  1434.77  363.04  628.50   0.877   1.17  insufficient-motion(infm,ws=1.0000)
+30639_dce52be4     0.209   0.083   0.037    8.61  5454.67  9668.08 3907.10 2769.82   6.002   1.68  insufficient-motion(infm,ws=1.0000)
+30639_e4379d7f     0.128   0.066   0.017    7.77  5725.36  9948.48 3273.33 3890.16  55.016   0.61  insufficient-motion(infm,ws=1.0000)
+----------------------------------------------------------------------------------------------------------------------
+     vRMSE: mean    0.219  median    0.093  p90    0.401  max    2.716
+      vMAE: mean    0.085  median    0.064  p90    0.118  max    0.877
+     vBias: mean   -0.036  median   -0.011  p90   -0.002  max    0.078
+   posRMSE: mean 3092.387  median  801.345  p90 6136.267  max 9208.536
+    posMax: mean 5224.088  median 1476.603  p90 10127.560  max 10268.206
+    drift%: mean    5.590  median    2.312  p90   12.724  max   55.016
+     along: mean 2121.265  median  392.384  p90 4397.552  max 7291.856
+     cross: mean 1674.341  median  663.931  p90 3131.343  max 4956.507
+alignment: 2/87 runs matched to the route map
+skipped 35 runs without a GNSS reference: 30618_0259fe53, 30618_0a83c933, 30618_117c2d02, 30618_20096314, 30618_2161b58b, 30618_2255aade ...
+slip time fraction: mean 2.32 %  max 55.41 %
+csv written to /home/ros/tram_ws/calib/s_G60.csv

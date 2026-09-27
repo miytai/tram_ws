@@ -1,0 +1,132 @@
+# tram_backup_odometry - default configuration
+# All values are ROS 2 parameters of the node `tram_backup_odometry`.
+# Units: SI (m, s, m/s, m/s^2, N, kg) unless stated otherwise.
+
+tram_backup_odometry:
+  ros__parameters:
+
+    # ---------------------------------------------------------------- topics
+    topics:
+      front_velocity: "/vehicle/front_bogie_velocity"
+      rear_velocity: "/vehicle/rear_bogie_velocity"
+      driver_command: "/vehicle/driver_position_cmd"
+      gnss_fix_primary: "/sensing/gnss/master/fix"
+      gnss_fix_secondary: "/sensing/gnss/rover/fix"
+      gnss_vel_primary: "/sensing/gnss/master/vel"
+      gnss_vel_secondary: "/sensing/gnss/rover/vel"
+      out_velocity: "/result/velocity"
+      out_position: "/result/position"
+      out_diagnostics: "/result/diagnostics"
+      out_slip_ratio: "/result/slip_ratio"
+      out_slip_active: "/result/slipping"
+      out_model_accel: "/result/model_accel"
+
+    # --------------------------------------------------------------- vehicle
+    vehicle:
+      mass_kg: 40000.0                # traction mass
+      wheel_radius_m: 0.35            # effective running radius (documentation)
+      driveline_efficiency: 1.0       # already included in the calibrated table
+      adhesion_mu: 0.25               # wheel/rail adhesion limit
+      gravity: 9.80665
+
+    # ----------------------------------------------------------------- input
+    input:
+      # the recorded wheel channel is in km/h although the message comment says
+      # m/s:  v[m/s] = raw * wheel_unit_scale
+      # 0.27783531 = (1/3.6) * 1.000207   (1.000207 = LS calibration vs GNSS vel)
+      wheel_unit_scale: 0.27783531
+      max_wheel_speed_mps: 25.0
+      notch_min: -15
+      notch_max: 15
+      notch_median_window: 5          # removes single-sample command glitches
+      wheel_median_window: 3
+      wheel_jump_limit_mps: 8.0
+      use_header_stamp: true
+      input_timeout_s: 0.6
+      max_step_s: 0.5
+
+    # ----------------------------------------------------------------- model
+    model:
+      model_file: ""                  # empty -> package share/config/model.json
+      bias_tau_s: 45.0                # online adaptation of the grade term
+      bias_max_mps2: 0.45
+      bias_gate_mps2: 0.45
+      bias_learning_rate: 0.35
+      use_adhesion_limit: true
+
+    # ------------------------------------------------------------------ slip
+    slip:
+      kappa_threshold: 0.04
+      kappa_hard: 0.25
+      bogie_diff_threshold_mps: 0.12
+      kappa_decay_tau_s: 1.2
+      detect_accel_threshold_mps2: 0.45
+      detect_decel_threshold_mps2: 0.55
+
+    # ------------------------------------------------------------------- ekf
+    ekf:
+      r_wheel_sigma: 0.060
+      q_model_sigma: 0.16
+      q_bias_sigma: 0.020
+      bias_max_mps: 3.0
+      init_v_sigma: 0.5
+      init_bias_sigma: 0.30
+      wheel_slowdown_s: 2.0
+
+    # ----------------------------------------------------------------- route
+    route:
+      map_file: ""                    # empty -> package share/config/route_map.json
+      use_map: true
+      init_mode: "auto"               # auto | absolute | relative
+      init_x: 0.0
+      init_y: 0.0
+      init_yaw: 0.0
+      gnss_init_window_s: 60.0
+      gnss_timeout_s: 2.0
+      match_min_motion_m: 60.0
+      match_min_samples: 40
+      match_grid_step_m: 5.0
+      match_refine_step_m: 0.25
+      match_max_residual_m: 8.0
+      match_weak_residual_m: 12.0
+      match_separation_m: 200.0
+      # observability gate, only relevant when match_use_prior is false
+      match_min_turning_deg: 0.0
+      # every recording of this depot starts at the beginning of the circuit:
+      # this prior resolves the ambiguity of a short alignment window;
+      # set match_prior_s0_tolerance_m to a large value to disable it
+      match_use_prior: true
+      match_prior_s0_m: 0.0
+      match_prior_s0_tolerance_m: 0.0
+      match_prior_margin: 2.0
+      match_max_ambiguity: 1.35
+      match_grid_step_m: 10.0
+      match_refine_step_m: 0.5
+      match_max_fit_points: 200
+      match_retry_period_s: 2.0
+      match_min_motion_fallback_m: 20.0
+      match_residual_fallback_scale: 3.0
+      align_update_period_s: 10.0
+      align_max_trials: 3
+      gnss_max_step_m: 8.0
+      gnss_max_speed_mps: 40.0
+      match_max_abs_rot_deg: 60.0
+      match_yaw_prior_sigma: 0.035
+      match_outlier_rounds: 2
+      match_outlier_gate_m: 4.0
+      match_scale_limits: [0.98, 1.02]
+      calibrate_wheel_scale: true
+      wheel_scale_limits: [0.985, 1.015]
+      heading_smooth_m: 6.0
+      publish_map_altitude: true
+
+    # ---------------------------------------------------------------- output
+    output:
+      publish_rate_hz: 50.0
+      frame_id: "map"
+      publish_covariance: true
+      pos_sigma_base: 0.30
+      pos_sigma_rate: 0.002
+      vel_sigma: 0.08
+      log_throttle_s: 5.0
+      queue_depth: 5

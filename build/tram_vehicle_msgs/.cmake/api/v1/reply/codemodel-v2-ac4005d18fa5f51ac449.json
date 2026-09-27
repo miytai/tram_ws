@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c7b9cd8d28911970c524.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "tram_vehicle_msgs__py",
+					"jsonFile" : "directory-tram_vehicle_msgs__py-b84a96c1bd32c1ed1054.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros/tram_ws/build/tram_vehicle_msgs/tram_vehicle_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tram_vehicle_msgs__rs",
+					"jsonFile" : "directory-tram_vehicle_msgs__rs-11e9cf3a54cdc8a5172b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros/tram_ws/build/tram_vehicle_msgs/tram_vehicle_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tram_vehicle_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tram_vehicle_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tram_vehicle_msgs_egg-f64d8158dd458137d8ee.json",
+					"name" : "ament_cmake_python_build_tram_vehicle_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_tram_vehicle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_tram_vehicle_msgs-c34e50aa56224458c46e.json",
+					"name" : "ament_cmake_python_symlink_tram_vehicle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs-f5a4d24c80a62bb07f17.json",
+					"name" : "tram_vehicle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__cpp-c16ad389c9ace99f8d8e.json",
+					"name" : "tram_vehicle_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tram_vehicle_msgs__py::@b6feb0b9c130b01956d2",
+					"jsonFile" : "target-tram_vehicle_msgs__py-6ba8c847258e8e95a1d6.json",
+					"name" : "tram_vehicle_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_generator_c-49b887a399e71b2eed7d.json",
+					"name" : "tram_vehicle_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_generator_py-7fb7c5be5e0e4145f02e.json",
+					"name" : "tram_vehicle_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_c-94a1f02dc6572d2665f2.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_c__pyext-e063093b93e54255b3ff.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_cpp-f73bd349ccbbcfae21cc.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_fastrtps_c-f79f5317ebd59bd66804.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext-d86ddb0386f21974a97d.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp-a0d06b1a93cd6617f329.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_introspection_c-fd2f7e79954d3c555d92.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_introspection_c__pyext-36dbf2a0c6acc8eff06a.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs__rosidl_typesupport_introspection_cpp-af813ee24362c5e8f233.json",
+					"name" : "tram_vehicle_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tram_vehicle_msgs__rs::@ff5182c624aadd9a61d2",
+					"jsonFile" : "target-tram_vehicle_msgs__rs-b715454b098bdfb4df06.json",
+					"name" : "tram_vehicle_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tram_vehicle_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tram_vehicle_msgs_uninstall-7de6ba5c504aaa34be73.json",
+					"name" : "tram_vehicle_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ffa8df9bb3c5c0abeb4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/tram_ws/build/tram_vehicle_msgs",
+		"source" : "/home/ros/tram_ws/src/tram_vehicle_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

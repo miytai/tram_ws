@@ -1,0 +1,4 @@
+source;share/tram_backup_odometry/local_setup.bash
+source;share/tram_backup_odometry/local_setup.dsv
+source;share/tram_backup_odometry/local_setup.sh
+source;share/tram_backup_odometry/local_setup.zsh

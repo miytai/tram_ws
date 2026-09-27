@@ -1,0 +1,72 @@
+Built target ament_cmake_python_copy_tram_backup_odometry
+running egg_info
+writing tram_backup_odometry.egg-info/PKG-INFO
+writing dependency_links to tram_backup_odometry.egg-info/dependency_links.txt
+writing top-level names to tram_backup_odometry.egg-info/top_level.txt
+reading manifest file 'tram_backup_odometry.egg-info/SOURCES.txt'
+writing manifest file 'tram_backup_odometry.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_tram_backup_odometry_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/pythonpath.sh
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/pythonpath.dsv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry-1.0.0-py3.10.egg-info
+-- Installing: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/model.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/slip.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/route.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/core.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/evaluate.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/replay.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/geodesy.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/__init__.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/params.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/estimator.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/preprocess.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry/node.py
+Listing '/home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages/tram_backup_odometry'...
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/lib/tram_backup_odometry/evaluate_bag
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/lib/tram_backup_odometry/tram_backup_odometry_node
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/config
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/config/route_map.json
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/config/tram_params.yaml
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/config/model.json
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/launch
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/launch/eval_bag.launch.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/launch/backup_odometry.launch.py
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/CALIBRATION.md
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/MODEL.md
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/RESULTS.md
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/example_run.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/drift_w8.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/position_rmse.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/velocity_rmse_w8.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/position_rmse_w8.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/velocity_rmse.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/figures/drift.png
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/data
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/data/model_calibration.json
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/data/scores_relative.csv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/data/scores_map_8s.csv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/docs/data/scores_map_60s.csv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/README.md
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/ament_index/resource_index/package_run_dependencies/tram_backup_odometry
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/ament_index/resource_index/parent_prefix_path/tram_backup_odometry
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/path.sh
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/environment/path.dsv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/local_setup.bash
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/local_setup.sh
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/local_setup.zsh
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/local_setup.dsv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/package.dsv
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/ament_index/resource_index/packages/tram_backup_odometry
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/cmake/tram_backup_odometryConfig.cmake
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/cmake/tram_backup_odometryConfig-version.cmake
+-- Up-to-date: /home/ros/tram_ws/install/tram_backup_odometry/share/tram_backup_odometry/package.xml

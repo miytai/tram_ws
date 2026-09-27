@@ -1,0 +1,9 @@
+[  2%] Built target tram_vehicle_msgs__rs
+[ 12%] Built target tram_vehicle_msgs__rosidl_generator_c
+[ 15%] Built target tram_vehicle_msgs__cpp
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[ 25%] Built target tram_vehicle_msgs__rosidl_typesupport_c
+[ 35%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[ 45%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_c

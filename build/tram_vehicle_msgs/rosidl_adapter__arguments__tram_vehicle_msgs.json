@@ -1,0 +1,7 @@
+{
+  "package_name": "tram_vehicle_msgs",
+  "non_idl_tuples": [
+    "/home/ros/tram_ws/src/tram_vehicle_msgs:msg/VelocitySensor.msg",
+    "/home/ros/tram_ws/src/tram_vehicle_msgs:msg/DriverControllerCommand.msg"
+  ]
+}

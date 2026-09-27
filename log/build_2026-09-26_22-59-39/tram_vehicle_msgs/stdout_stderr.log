@@ -1,0 +1,14 @@
+[  2%] Built target tram_vehicle_msgs__rs
+[ 12%] Built target tram_vehicle_msgs__rosidl_generator_c
+[ 15%] Built target tram_vehicle_msgs__cpp
+failed to create symbolic link '/home/ros/tram_ws/build/tram_vehicle_msgs/ament_cmake_python/tram_vehicle_msgs/tram_vehicle_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[ 25%] Built target tram_vehicle_msgs__rosidl_typesupport_c
+[ 35%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[ 45%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_c
+gmake: *** [Makefile:146: all] Error 2

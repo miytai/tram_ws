@@ -1,0 +1,266 @@
+[0.014s] Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/tram_ws/src/tram_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/tram_ws/install/tram_vehicle_msgs
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.241s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[0.338s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.409s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.411s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.416s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.445s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.622s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.016s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.016s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.034s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.034s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.034s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.051s] -- Found PythonExtra: .so  
+[1.138s] -- Configuring done
+[1.161s] -- Generating done
+[1.168s] -- Build files have been written to: /home/ros/tram_ws/build/tram_vehicle_msgs
+[1.173s] Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/tram_ws/src/tram_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/tram_ws/install/tram_vehicle_msgs
+[1.174s] Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4
+[1.207s] [  2%] Generating C code for ROS interfaces
+[1.215s] [  5%] Generating C++ code for ROS interfaces
+[1.215s] [  7%] Generating Rust code for ROS interfaces
+[1.222s] [  7%] Built target ament_cmake_python_copy_tram_vehicle_msgs
+[1.364s] [  7%] Built target tram_vehicle_msgs__rs
+[1.376s] running egg_info
+[1.377s] creating tram_vehicle_msgs.egg-info
+[1.377s] writing tram_vehicle_msgs.egg-info/PKG-INFO
+[1.377s] writing dependency_links to tram_vehicle_msgs.egg-info/dependency_links.txt
+[1.377s] writing top-level names to tram_vehicle_msgs.egg-info/top_level.txt
+[1.377s] writing manifest file 'tram_vehicle_msgs.egg-info/SOURCES.txt'
+[1.378s] reading manifest file 'tram_vehicle_msgs.egg-info/SOURCES.txt'
+[1.378s] writing manifest file 'tram_vehicle_msgs.egg-info/SOURCES.txt'
+[1.395s] [  7%] Built target ament_cmake_python_build_tram_vehicle_msgs_egg
+[1.417s] [  7%] Built target tram_vehicle_msgs__cpp
+[1.420s] [ 10%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tram_vehicle_msgs/msg/detail/velocity_sensor__functions.c.o
+[1.420s] [ 12%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/tram_vehicle_msgs/msg/detail/driver_controller_command__functions.c.o
+[1.425s] [ 15%] Generating C++ type support dispatch for ROS interfaces
+[1.425s] [ 17%] Generating C++ introspection for ROS interfaces
+[1.454s] [ 20%] Generating C++ type support for eProsima Fast-RTPS
+[1.454s] [ 22%] Linking C shared library libtram_vehicle_msgs__rosidl_generator_c.so
+[1.486s] [ 22%] Built target tram_vehicle_msgs__rosidl_generator_c
+[1.494s] [ 25%] Generating C introspection for ROS interfaces
+[1.614s] [ 27%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tram_vehicle_msgs/msg/velocity_sensor__type_support.cpp.o
+[1.656s] [ 30%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.cpp.o
+[1.667s] [ 32%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tram_vehicle_msgs/msg/detail/dds_fastrtps/velocity_sensor__type_support.cpp.o
+[1.707s] [ 35%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.c.o
+[1.736s] [ 37%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.c.o
+[1.760s] [ 40%] Linking C shared library libtram_vehicle_msgs__rosidl_typesupport_introspection_c.so
+[1.767s] [ 42%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tram_vehicle_msgs/msg/driver_controller_command__type_support.cpp.o
+[1.785s] [ 42%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_c
+[1.796s] [ 45%] Generating C type support dispatch for ROS interfaces
+[1.888s] [ 47%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tram_vehicle_msgs/msg/detail/dds_fastrtps/driver_controller_command__type_support.cpp.o
+[1.893s] [ 50%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.cpp.o
+[1.948s] [ 52%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tram_vehicle_msgs/msg/velocity_sensor__type_support.cpp.o
+[1.952s] [ 55%] Linking CXX shared library libtram_vehicle_msgs__rosidl_typesupport_cpp.so
+[1.971s] [ 57%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tram_vehicle_msgs/msg/driver_controller_command__type_support.cpp.o
+[1.983s] [ 57%] Built target tram_vehicle_msgs__rosidl_typesupport_cpp
+[1.992s] [ 60%] Generating C type support for eProsima Fast-RTPS
+[1.995s] [ 62%] Linking CXX shared library libtram_vehicle_msgs__rosidl_typesupport_c.so
+[2.025s] [ 62%] Built target tram_vehicle_msgs__rosidl_typesupport_c
+[2.110s] [ 65%] Linking CXX shared library libtram_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
+[2.120s] [ 67%] Linking CXX shared library libtram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.161s] [ 67%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_cpp
+[2.166s] [ 72%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support_c.cpp.o
+[2.166s] [ 72%] Building CXX object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support_c.cpp.o
+[2.174s] [ 72%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[2.342s] [ 75%] Linking CXX shared library libtram_vehicle_msgs__rosidl_typesupport_fastrtps_c.so
+[2.396s] [ 75%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[2.414s] [ 75%] Built target tram_vehicle_msgs
+[2.432s] [ 77%] Generating Python code for ROS interfaces
+[2.660s] [ 77%] Built target tram_vehicle_msgs__py
+[2.677s] [ 82%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/tram_vehicle_msgs/msg/_velocity_sensor_s.c.o
+[2.677s] [ 82%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/tram_vehicle_msgs/msg/_driver_controller_command_s.c.o
+[2.742s] [ 85%] Linking C shared library rosidl_generator_py/tram_vehicle_msgs/libtram_vehicle_msgs__rosidl_generator_py.so
+[2.775s] [ 85%] Built target tram_vehicle_msgs__rosidl_generator_py
+[2.795s] [ 87%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o
+[2.795s] [ 90%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[2.795s] [ 92%] Building C object CMakeFiles/tram_vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[2.860s] [ 97%] Linking C shared library rosidl_generator_py/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.860s] [ 97%] Linking C shared library rosidl_generator_py/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.860s] [100%] Linking C shared library rosidl_generator_py/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.891s] [100%] Built target tram_vehicle_msgs__rosidl_typesupport_c__pyext
+[2.891s] [100%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.891s] [100%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+[2.901s] Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4
+[2.908s] Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/tram_ws/build/tram_vehicle_msgs
+[2.914s] -- Install configuration: ""
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/tram_vehicle_msgs
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__functions.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__functions.c
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__struct.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__struct.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__functions.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__functions.c
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/driver_controller_command.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/velocity_sensor.h
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/library_path.sh
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/library_path.dsv
+[2.916s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_generator_c.so
+[2.917s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_generator_c.so" to ""
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__rosidl_typesupport_fastrtps_c.h
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__rosidl_typesupport_fastrtps_c.h
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_fastrtps_c.so
+[2.917s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.917s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__traits.hpp
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__builder.hpp
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__struct.hpp
+[2.917s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__traits.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__struct.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__builder.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/velocity_sensor.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/driver_controller_command.hpp
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/dds_fastrtps
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.918s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.918s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.c
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__rosidl_typesupport_introspection_c.h
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__rosidl_typesupport_introspection_c.h
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.c
+[2.918s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.919s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_introspection_c.so
+[2.919s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_c.so
+[2.920s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_c.so" to ""
+[2.920s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs
+[2.920s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg
+[2.920s] -- Up-to-date: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__type_support.cpp
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__rosidl_typesupport_introspection_cpp.hpp
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/driver_controller_command__type_support.cpp
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/include/tram_vehicle_msgs/tram_vehicle_msgs/msg/detail/velocity_sensor__rosidl_typesupport_introspection_cpp.hpp
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
+[2.920s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.920s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_cpp.so
+[2.921s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_typesupport_cpp.so" to ""
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/pythonpath.sh
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/pythonpath.dsv
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs-0.0.0-py3.10.egg-info
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.921s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_c.c
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/__init__.py
+[2.922s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/libtram_vehicle_msgs__rosidl_generator_py.so
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_velocity_sensor_s.c
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/__init__.py
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_driver_controller_command.py
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_velocity_sensor.py
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_driver_controller_command_s.c
+[2.923s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/_tram_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.947s] Listing '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs'...
+[2.947s] Compiling '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/__init__.py'...
+[2.947s] Listing '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg'...
+[2.947s] Compiling '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/__init__.py'...
+[2.947s] Compiling '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_driver_controller_command.py'...
+[2.947s] Compiling '/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/msg/_velocity_sensor.py'...
+[2.950s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.950s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.950s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.951s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.951s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.951s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages/tram_vehicle_msgs/tram_vehicle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.951s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_generator_py.so
+[2.951s] -- Set runtime path of "/home/ros/tram_ws/install/tram_vehicle_msgs/lib/libtram_vehicle_msgs__rosidl_generator_py.so" to ""
+[2.951s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/Cargo.toml
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/src
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/src/lib.rs
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/src/msg
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/src/msg/rmw.rs
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/src/msg.rs
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/rust/build.rs
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/msg/VelocitySensor.idl
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/msg/DriverControllerCommand.idl
+[2.952s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/msg/VelocitySensor.msg
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/msg/DriverControllerCommand.msg
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/tram_vehicle_msgs
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/tram_vehicle_msgs
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/ament_prefix_path.sh
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/ament_prefix_path.dsv
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/path.sh
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/environment/path.dsv
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/local_setup.bash
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/local_setup.sh
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/local_setup.zsh
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/local_setup.dsv
+[2.953s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.dsv
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/ament_index/resource_index/packages/tram_vehicle_msgs
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_generator_cExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_generator_cppExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_cExport.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.954s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_cppExport.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_generator_pyExport.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/export_tram_vehicle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/rosidl_cmake-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.955s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgsConfig.cmake
+[2.956s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/cmake/tram_vehicle_msgsConfig-version.cmake
+[2.956s] -- Installing: /home/ros/tram_ws/install/tram_vehicle_msgs/share/tram_vehicle_msgs/package.xml
+[2.956s] Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/tram_ws/build/tram_vehicle_msgs

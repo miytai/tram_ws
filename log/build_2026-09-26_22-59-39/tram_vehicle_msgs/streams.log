@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4
+[0.061s] [  2%] Built target tram_vehicle_msgs__rs
+[0.061s] [ 12%] Built target tram_vehicle_msgs__rosidl_generator_c
+[0.062s] [ 15%] Built target tram_vehicle_msgs__cpp
+[0.068s] failed to create symbolic link '/home/ros/tram_ws/build/tram_vehicle_msgs/ament_cmake_python/tram_vehicle_msgs/tram_vehicle_msgs' because existing path cannot be removed: Is a directory
+[0.068s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs] Error 1
+[0.068s] gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_tram_vehicle_msgs.dir/all] Error 2
+[0.068s] gmake[1]: *** Waiting for unfinished jobs....
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_c[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target tram_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[0.084s] [ 25%] Built target tram_vehicle_msgs__rosidl_typesupport_c
+[0.084s] [ 35%] Built target tram_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[0.088s] [ 45%] Built target tram_vehicle_msgs__rosidl_typesupport_introspection_c
+[0.089s] gmake: *** [Makefile:146: all] Error 2
+[0.091s] Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4

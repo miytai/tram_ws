@@ -1,0 +1,122 @@
+[0.102s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'tram_backup_odometry']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tram_backup_odometry'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ce6cd462290>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7ce6cd4610c0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7ce6cd4610c0>>, mixin_verb=('test',))
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.201s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros/tram_ws'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(calib) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_backup_odometry) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tram_backup_odometry' with type 'ros.ament_cmake' and name 'tram_backup_odometry'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/tram_vehicle_msgs) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tram_vehicle_msgs' with type 'ros.ament_cmake' and name 'tram_vehicle_msgs'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.215s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tram_vehicle_msgs' in 'src/tram_vehicle_msgs'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'ctest_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'python_testing' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'pytest_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'pytest_with_coverage' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'unittest_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'retest_until_pass' from command line to '0'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'tram_backup_odometry' test argument 'retest_until_fail' from command line to '0'
+[0.215s] DEBUG:colcon.colcon_core.verb.test:Testing package 'tram_backup_odometry' with the following arguments: {'build_base': '/home/ros/tram_ws/build/tram_backup_odometry', 'ctest_args': None, 'install_base': '/home/ros/tram_ws/install/tram_backup_odometry', 'path': '/home/ros/tram_ws/src/tram_backup_odometry', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/ros/tram_ws/src/tram_backup_odometry' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/ros/tram_ws/src/tram_backup_odometry'
+[0.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/tram_ws/build/tram_backup_odometry': AMENT_PREFIX_PATH=/home/ros/tram_ws/install/tram_backup_odometry:/home/ros/tram_ws/install/tram_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/tram_ws/install/tram_backup_odometry:/home/ros/tram_ws/install/tram_vehicle_msgs LD_LIBRARY_PATH=/home/ros/tram_ws/install/tram_vehicle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages:/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/tram_ws/build/tram_backup_odometry' returned '0': AMENT_PREFIX_PATH=/home/ros/tram_ws/install/tram_backup_odometry:/home/ros/tram_ws/install/tram_vehicle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/tram_ws/install/tram_backup_odometry:/home/ros/tram_ws/install/tram_vehicle_msgs LD_LIBRARY_PATH=/home/ros/tram_ws/install/tram_vehicle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/tram_ws/install/tram_backup_odometry/local/lib/python3.10/dist-packages:/home/ros/tram_ws/install/tram_vehicle_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.690s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.690s] DEBUG:colcon.colcon_core.event_reactor:joined thread

@@ -1,0 +1,223 @@
+[INFO] [1790422442.889855394] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_01f73500/30618_01f73500_0.db3' for READ_ONLY.
+bag                vRMSE    vMAE   vBias    vMax  posRMSE   posMax   along   cross  drift%  slip%  align
+30618_01f73500   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422444.690528003] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0259fe53/30618_0259fe53_0.db3' for READ_ONLY.
+[INFO] [1790422446.214796011] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0652866c/30618_0652866c_0.db3' for READ_ONLY.
+30618_0652866c   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422448.199041440] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0686195f/30618_0686195f_0.db3' for READ_ONLY.
+30618_0686195f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422449.785602945] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_073f08d1/30618_073f08d1_0.db3' for READ_ONLY.
+30618_073f08d1   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422451.513780042] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_082f1d65/30618_082f1d65_0.db3' for READ_ONLY.
+[INFO] [1790422451.604385706] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_095a115b/30618_095a115b_0.db3' for READ_ONLY.
+30618_082f1d65     0.028   0.018  -0.018    0.16     7.43    12.38    5.98    0.50   0.045   0.00  waiting(infm,ws=1.0000)
+30618_095a115b   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422453.386049892] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0a83c933/30618_0a83c933_0.db3' for READ_ONLY.
+[INFO] [1790422454.706594703] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0d865417/30618_0d865417_0.db3' for READ_ONLY.
+[INFO] [1790422454.768833113] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0e41eac3/30618_0e41eac3_0.db3' for READ_ONLY.
+30618_0d865417     0.063   0.036  -0.006    0.23     6.87    12.46    5.15    1.06   0.106   9.28  waiting(infm,ws=1.0000)
+30618_0e41eac3   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422456.535370656] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_0f120b35/30618_0f120b35_0.db3' for READ_ONLY.
+30618_0f120b35   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422458.330207787] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_117c2d02/30618_117c2d02_0.db3' for READ_ONLY.
+[INFO] [1790422459.774397835] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_1551d0a9/30618_1551d0a9_0.db3' for READ_ONLY.
+[INFO] [1790422459.812527583] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_1cc230fa/30618_1cc230fa_0.db3' for READ_ONLY.
+30618_1551d0a9     0.004   0.004  -0.004    0.01     6.35    11.64    5.99    0.16  13.166   0.00  waiting(infm,ws=1.0000)
+30618_1cc230fa   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422461.563795997] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_20096314/30618_20096314_0.db3' for READ_ONLY.
+[INFO] [1790422463.022277539] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2050d396/30618_2050d396_0.db3' for READ_ONLY.
+30618_2050d396   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422464.975784801] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2161b58b/30618_2161b58b_0.db3' for READ_ONLY.
+[INFO] [1790422466.288835209] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_21dd3af3/30618_21dd3af3_0.db3' for READ_ONLY.
+30618_21dd3af3   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422467.738313173] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2255aade/30618_2255aade_0.db3' for READ_ONLY.
+[INFO] [1790422469.227653635] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_22c1c589/30618_22c1c589_0.db3' for READ_ONLY.
+30618_22c1c589   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422470.802119013] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2366c74a/30618_2366c74a_0.db3' for READ_ONLY.
+30618_2366c74a   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422472.289674366] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_27e994fc/30618_27e994fc_0.db3' for READ_ONLY.
+30618_27e994fc   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422474.829344499] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_28538acf/30618_28538acf_0.db3' for READ_ONLY.
+30618_28538acf   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422476.613945070] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2cb9ce37/30618_2cb9ce37_0.db3' for READ_ONLY.
+30618_2cb9ce37   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422477.697934402] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2d2fa7be/30618_2d2fa7be_0.db3' for READ_ONLY.
+[INFO] [1790422479.109253575] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2dbce472/30618_2dbce472_0.db3' for READ_ONLY.
+30618_2dbce472   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422480.918113184] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2f104a1d/30618_2f104a1d_0.db3' for READ_ONLY.
+30618_2f104a1d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422482.590471030] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_2f2f1175/30618_2f2f1175_0.db3' for READ_ONLY.
+[INFO] [1790422484.008742256] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_33bec73f/30618_33bec73f_0.db3' for READ_ONLY.
+30618_33bec73f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422485.634136640] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3b36e5cd/30618_3b36e5cd_0.db3' for READ_ONLY.
+30618_3b36e5cd   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422487.311679850] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3ba2326f/30618_3ba2326f_0.db3' for READ_ONLY.
+[INFO] [1790422488.847504766] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3e012faf/30618_3e012faf_0.db3' for READ_ONLY.
+[INFO] [1790422490.077632721] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_3e9f4952/30618_3e9f4952_0.db3' for READ_ONLY.
+30618_3e9f4952   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422491.926394910] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_40ffd323/30618_40ffd323_0.db3' for READ_ONLY.
+30618_40ffd323   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422493.689091560] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_437e855c/30618_437e855c_0.db3' for READ_ONLY.
+30618_437e855c   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422495.228452267] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_45ff6f99/30618_45ff6f99_0.db3' for READ_ONLY.
+[INFO] [1790422495.298082117] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_46e21b9b/30618_46e21b9b_0.db3' for READ_ONLY.
+[INFO] [1790422496.727939614] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_49fe4c54/30618_49fe4c54_0.db3' for READ_ONLY.
+30618_45ff6f99     0.007   0.006  -0.006    0.02     7.63    12.41    7.23    0.51   0.891   0.00  waiting(infm,ws=1.0000)
+30618_49fe4c54   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422498.619934208] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_4d487b0d/30618_4d487b0d_0.db3' for READ_ONLY.
+30618_4d487b0d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422500.085164221] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_4e1e3181/30618_4e1e3181_0.db3' for READ_ONLY.
+[INFO] [1790422501.662489479] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_5036aa78/30618_5036aa78_0.db3' for READ_ONLY.
+[INFO] [1790422501.809141583] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_5eb8d2c9/30618_5eb8d2c9_0.db3' for READ_ONLY.
+30618_5eb8d2c9   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422502.881263974] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_616ec56b/30618_616ec56b_0.db3' for READ_ONLY.
+30618_616ec56b   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422504.523670023] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_6236f680/30618_6236f680_0.db3' for READ_ONLY.
+[INFO] [1790422506.052568842] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_67b89902/30618_67b89902_0.db3' for READ_ONLY.
+30618_67b89902   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422507.449806614] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_68847170/30618_68847170_0.db3' for READ_ONLY.
+30618_68847170   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422509.102245757] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_68d1748a/30618_68d1748a_0.db3' for READ_ONLY.
+30618_68d1748a   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422510.815282865] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_6cb3280a/30618_6cb3280a_0.db3' for READ_ONLY.
+30618_6cb3280a   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422512.554699184] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_74559c73/30618_74559c73_0.db3' for READ_ONLY.
+[INFO] [1790422512.698807721] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_748832b9/30618_748832b9_0.db3' for READ_ONLY.
+30618_748832b9   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422514.212770801] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_76e1f9c7/30618_76e1f9c7_0.db3' for READ_ONLY.
+30618_76e1f9c7   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422515.968778925] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7849303f/30618_7849303f_0.db3' for READ_ONLY.
+30618_7849303f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422517.497947176] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_79b204dc/30618_79b204dc_0.db3' for READ_ONLY.
+[INFO] [1790422518.746108234] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7a152380/30618_7a152380_0.db3' for READ_ONLY.
+[INFO] [1790422520.269072155] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7b4d83f4/30618_7b4d83f4_0.db3' for READ_ONLY.
+[INFO] [1790422523.723064990] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7bfbb5ed/30618_7bfbb5ed_0.db3' for READ_ONLY.
+[INFO] [1790422525.255102546] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_7d88fa79/30618_7d88fa79_0.db3' for READ_ONLY.
+[INFO] [1790422526.806327438] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8158f0b0/30618_8158f0b0_0.db3' for READ_ONLY.
+30618_7b4d83f4     0.060   0.044  -0.005    0.38   772.97  1475.44  389.77  605.63   1.769   0.26  insufficient-motion(infm,ws=1.0000)
+30618_8158f0b0   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422528.405150974] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_81c22fee/30618_81c22fee_0.db3' for READ_ONLY.
+[INFO] [1790422529.790295090] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_87afe526/30618_87afe526_0.db3' for READ_ONLY.
+30618_87afe526   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422531.443565750] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_88548b02/30618_88548b02_0.db3' for READ_ONLY.
+30618_88548b02   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422533.135962883] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_887a2b9a/30618_887a2b9a_0.db3' for READ_ONLY.
+[INFO] [1790422534.432716480] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8eb8615c/30618_8eb8615c_0.db3' for READ_ONLY.
+[INFO] [1790422535.857195359] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_8f08df08/30618_8f08df08_0.db3' for READ_ONLY.
+[INFO] [1790422537.382317081] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_92b1b453/30618_92b1b453_0.db3' for READ_ONLY.
+[INFO] [1790422538.774962602] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_93dc866e/30618_93dc866e_0.db3' for READ_ONLY.
+30618_93dc866e   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422540.276140637] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_95c49c30/30618_95c49c30_0.db3' for READ_ONLY.
+[INFO] [1790422541.826095308] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_98161270/30618_98161270_0.db3' for READ_ONLY.
+[INFO] [1790422541.964028787] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9bbe6faa/30618_9bbe6faa_0.db3' for READ_ONLY.
+[INFO] [1790422543.387528594] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9c09b081/30618_9c09b081_0.db3' for READ_ONLY.
+[INFO] [1790422547.225384406] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_9c10cd0d/30618_9c10cd0d_0.db3' for READ_ONLY.
+[INFO] [1790422548.666363949] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a395846d/30618_a395846d_0.db3' for READ_ONLY.
+30618_98161270     0.011   0.009  -0.009    0.04     8.92    12.46    7.82    0.57   0.000   0.00  waiting(infm,ws=1.0000)
+30618_9c09b081     0.064   0.047  -0.010    0.31  5922.00 10145.72 4059.04 3364.96   6.838   0.40  insufficient-motion(infm,ws=1.0000)
+30618_a395846d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422550.437303791] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a53d5f6f/30618_a53d5f6f_0.db3' for READ_ONLY.
+30618_a53d5f6f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422552.050351372] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_a869780d/30618_a869780d_0.db3' for READ_ONLY.
+30618_a869780d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422553.507125520] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ab5921a4/30618_ab5921a4_0.db3' for READ_ONLY.
+30618_ab5921a4   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422555.054356068] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ae4eb346/30618_ae4eb346_0.db3' for READ_ONLY.
+30618_ae4eb346   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422556.742742864] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_af7496f0/30618_af7496f0_0.db3' for READ_ONLY.
+30618_af7496f0   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422557.192544189] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b1098bdb/30618_b1098bdb_0.db3' for READ_ONLY.
+[INFO] [1790422558.746208807] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b15eafc3/30618_b15eafc3_0.db3' for READ_ONLY.
+30618_b15eafc3   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422560.507026815] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b3042f78/30618_b3042f78_0.db3' for READ_ONLY.
+30618_b3042f78   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422562.002573609] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b8044aa0/30618_b8044aa0_0.db3' for READ_ONLY.
+30618_b8044aa0   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422563.754255687] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b83d854d/30618_b83d854d_0.db3' for READ_ONLY.
+30618_b83d854d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422565.400780937] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_b95ca60a/30618_b95ca60a_0.db3' for READ_ONLY.
+30618_b95ca60a   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422566.869065099] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bab2fe58/30618_bab2fe58_0.db3' for READ_ONLY.
+[INFO] [1790422567.056791059] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bc5e53c2/30618_bc5e53c2_0.db3' for READ_ONLY.
+[INFO] [1790422567.152902779] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_bcc9e7a2/30618_bcc9e7a2_0.db3' for READ_ONLY.
+[INFO] [1790422568.364786141] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_cfd9fd5a/30618_cfd9fd5a_0.db3' for READ_ONLY.
+[INFO] [1790422569.861608060] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_d4ba7005/30618_d4ba7005_0.db3' for READ_ONLY.
+30618_bab2fe58     0.891   0.600  -0.588    2.69    28.34    48.04   13.21   23.31   0.324  55.41  waiting(infm,ws=1.0000)
+30618_bc5e53c2     0.006   0.004  -0.004    0.04     7.03    12.45    5.21    0.47   0.000   0.00  waiting(infm,ws=1.0000)
+30618_d4ba7005   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422571.449372865] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_dd8d0741/30618_dd8d0741_0.db3' for READ_ONLY.
+30618_dd8d0741   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422573.132299022] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_dd8e6395/30618_dd8e6395_0.db3' for READ_ONLY.
+30618_dd8e6395   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422574.804863522] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_ddad08d6/30618_ddad08d6_0.db3' for READ_ONLY.
+[INFO] [1790422576.199324477] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_defd0170/30618_defd0170_0.db3' for READ_ONLY.
+30618_defd0170   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422577.636402712] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e151d6e4/30618_e151d6e4_0.db3' for READ_ONLY.
+[INFO] [1790422577.710745979] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e2dcf65f/30618_e2dcf65f_0.db3' for READ_ONLY.
+30618_e2dcf65f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422579.186855792] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e392e5bd/30618_e392e5bd_0.db3' for READ_ONLY.
+[INFO] [1790422580.501719148] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e3d94878/30618_e3d94878_0.db3' for READ_ONLY.
+30618_e3d94878   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422582.177801002] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e7dcdab1/30618_e7dcdab1_0.db3' for READ_ONLY.
+[INFO] [1790422583.605387651] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_e9a34502/30618_e9a34502_0.db3' for READ_ONLY.
+30618_e9a34502   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422585.229485077] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_efb92709/30618_efb92709_0.db3' for READ_ONLY.
+30618_efb92709   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422586.957857237] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f19a4ac3/30618_f19a4ac3_0.db3' for READ_ONLY.
+30618_f19a4ac3   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422588.558233207] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f28179bb/30618_f28179bb_0.db3' for READ_ONLY.
+[INFO] [1790422589.890960122] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f3a0694d/30618_f3a0694d_0.db3' for READ_ONLY.
+30618_f3a0694d   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422591.576045190] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30618_f3b8c99b/30618_f3b8c99b_0.db3' for READ_ONLY.
+30618_f3b8c99b   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422593.036446374] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_0ab96c59/30639_0ab96c59_0.db3' for READ_ONLY.
+[INFO] [1790422593.315929780] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_0be558e2/30639_0be558e2_0.db3' for READ_ONLY.
+[INFO] [1790422596.884046047] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_253671cc/30639_253671cc_0.db3' for READ_ONLY.
+30639_0ab96c59     0.036   0.009  -0.003    0.48     6.02    12.99    4.53    0.90   0.107   2.13  insufficient-motion(infm,ws=1.0000)
+30639_0be558e2     0.282   0.089  -0.046    4.22  5636.72 10253.93 3895.70 2556.02   6.741   2.48  insufficient-motion(infm,ws=1.0000)
+30639_253671cc   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422598.381468699] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_2b4a6347/30639_2b4a6347_0.db3' for READ_ONLY.
+30639_2b4a6347   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422599.931606408] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_3b3d9eb8/30639_3b3d9eb8_0.db3' for READ_ONLY.
+30639_3b3d9eb8   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422601.620581887] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_4285f2bc/30639_4285f2bc_0.db3' for READ_ONLY.
+30639_4285f2bc   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422603.355051125] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_44226bde/30639_44226bde_0.db3' for READ_ONLY.
+30639_44226bde   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422604.862118757] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_50956d6e/30639_50956d6e_0.db3' for READ_ONLY.
+30639_50956d6e   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422606.341829312] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_584b6e32/30639_584b6e32_0.db3' for READ_ONLY.
+30639_584b6e32   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422607.891299549] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_92226df0/30639_92226df0_0.db3' for READ_ONLY.
+30639_92226df0   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422609.545551737] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_927002c2/30639_927002c2_0.db3' for READ_ONLY.
+30639_927002c2   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422611.123698243] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_9c362687/30639_9c362687_0.db3' for READ_ONLY.
+30639_9c362687   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422612.973089690] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_9f0b519f/30639_9f0b519f_0.db3' for READ_ONLY.
+30639_9f0b519f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422614.486085505] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_c31df386/30639_c31df386_0.db3' for READ_ONLY.
+30639_c31df386   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422616.297874483] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d3c43d69/30639_d3c43d69_0.db3' for READ_ONLY.
+30639_d3c43d69   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422617.830896786] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d601d28f/30639_d601d28f_0.db3' for READ_ONLY.
+30639_d601d28f   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422619.186208150] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_d927f360/30639_d927f360_0.db3' for READ_ONLY.
+30639_d927f360   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422620.658902689] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_dce52be4/30639_dce52be4_0.db3' for READ_ONLY.
+30639_dce52be4   ERROR local variable 'ptol' referenced before assignment
+[INFO] [1790422622.232211697] [rosbag2_storage]: Opened database '/home/ros/Downloads/dataset/data/30639_e4379d7f/30639_e4379d7f_0.db3' for READ_ONLY.
+30639_e4379d7f     0.128   0.066   0.017    7.77  5725.36  9948.48 3273.33 3890.16  55.016   0.61  insufficient-motion(infm,ws=1.0000)
+----------------------------------------------------------------------------------------------------------------------
+     vRMSE: mean    0.131  median    0.048  p90    0.267  max    0.891
+      vMAE: mean    0.078  median    0.027  p90    0.087  max    0.600
+     vBias: mean   -0.057  median   -0.006  p90   -0.003  max    0.017
+   posRMSE: mean 1511.304  median    8.275  p90 5716.499  max 5921.998
+    posMax: mean 2663.200  median   12.729  p90 10125.996  max 10253.927
+    drift%: mean    7.084  median    0.607  p90   12.533  max   55.016
+     along: mean  972.747  median    7.525  p90 3833.467  max 4059.037
+     cross: mean  870.353  median    0.977  p90 3284.066  max 3890.158
+alignment: 0/12 runs matched to the route map
+skipped 35 runs without a GNSS reference: 30618_0259fe53, 30618_0a83c933, 30618_117c2d02, 30618_20096314, 30618_2161b58b, 30618_2255aade ...
+slip time fraction: mean 5.88 %  max 55.41 %
+csv written to /home/ros/tram_ws/calib/s_map5.csv

@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/tram_ws/src/tram_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/tram_ws/install/tram_vehicle_msgs
+Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/tram_ws/src/tram_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/tram_ws/install/tram_vehicle_msgs
+Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4
+Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/tram_ws/build/tram_vehicle_msgs -- -j4 -l4
+Invoking command in '/home/ros/tram_ws/build/tram_vehicle_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/tram_ws/build/tram_vehicle_msgs
+Invoked command in '/home/ros/tram_ws/build/tram_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/tram_ws/build/tram_vehicle_msgs

@@ -1,0 +1,36 @@
+Start testing: Sep 26 20:42 +08
+----------------------------------------------------------
+1/1 Testing: test_core
+1/1 Test: test_core
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ros/tram_ws/build/tram_backup_odometry/test_results/tram_backup_odometry/test_core.xunit.xml" "--package-name" "tram_backup_odometry" "--output-file" "/home/ros/tram_ws/build/tram_backup_odometry/ament_cmake_pytest/test_core.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/ros/tram_ws/src/tram_backup_odometry/test/test_core.py" "-o" "cache_dir=/home/ros/tram_ws/build/tram_backup_odometry/ament_cmake_pytest/test_core/.cache" "--junit-xml=/home/ros/tram_ws/build/tram_backup_odometry/test_results/tram_backup_odometry/test_core.xunit.xml" "--junit-prefix=tram_backup_odometry"
+Directory: /home/ros/tram_ws/src/tram_backup_odometry
+"test_core" start time: Sep 26 20:42 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/ros/tram_ws/src/tram_backup_odometry':
+ - /usr/bin/python3 -u -m pytest /home/ros/tram_ws/src/tram_backup_odometry/test/test_core.py -o cache_dir=/home/ros/tram_ws/build/tram_backup_odometry/ament_cmake_pytest/test_core/.cache --junit-xml=/home/ros/tram_ws/build/tram_backup_odometry/test_results/tram_backup_odometry/test_core.xunit.xml --junit-prefix=tram_backup_odometry
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/ros/tram_ws/build/tram_backup_odometry/ament_cmake_pytest/test_core/.cache
+rootdir: /home/ros/tram_ws/src/tram_backup_odometry
+plugins: ament-pep257-0.12.15, ament-copyright-0.12.15, ament-xmllint-0.12.15, ament-lint-0.12.15, ament-flake8-0.12.15, launch-testing-ros-0.19.14, launch-testing-1.0.15, cov-3.0.0, colcon-core-0.21.3
+collected 17 items
+
+test/test_core.py .................                                      [100%]
+
+- generated xml file: /home/ros/tram_ws/build/tram_backup_odometry/test_results/tram_backup_odometry/test_core.xunit.xml -
+============================== 17 passed in 0.21s ==============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ros/tram_ws/build/tram_backup_odometry/test_results/tram_backup_odometry/test_core.xunit.xml'
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"test_core" end time: Sep 26 20:42 +08
+"test_core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 20:42 +08
+
+pytest =   0.46 sec*proc
+
